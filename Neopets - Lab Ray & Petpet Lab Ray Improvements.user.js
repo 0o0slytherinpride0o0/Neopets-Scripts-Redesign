@@ -204,7 +204,7 @@ var p2labRatCSS = `
 .monkeyScriptP2LabRat span {
 	display: block; 
   margin-bottom: 8px; 
-  padding: 3px 0px 5px; 
+  padding: 3px 0px 4px; 
   background-color: darkblue;
   color: #FFFFFF;
   font: bold small-caps 10pt verdana;

@@ -3,13 +3,13 @@
 // @name           Neopets - Bank Maximize Interest
 // @version        1.0
 // @description    Calculates how much you need to withdraw or deposit to maximize your daily interest for the next day
-//								 i.e., so collecting your interest puts you back at the neopoint limit exactly
-//								 Right now, it assumes if it's Sunday:
-//								 		1. If you have the bank boon, that you *won't* have it tomorrow
-//								 		2. If you do NOT have the bank boon, that you *might* have it tomorrow (gives you two options)
-//								 For #2: Use the button on the right if you might have the boon tomorrow!
-//								 You only lose out on 60 neopoints if you withdraw the larger amount and don't end up having the boon
-//								 And 176,371 neopoints if you withdraw the smaller amount and do have the boon!
+//		   i.e., so collecting your interest puts you back at the neopoint limit exactly
+//		   Right now, it assumes if it's Sunday:
+//		   	1. If you have the bank boon, that you *won't* have it tomorrow
+//		   	2. If you do NOT have the bank boon, that you *might* have it tomorrow (gives you two options)
+//		   For #2: Use the button on the right if you might have the boon tomorrow!
+//		   You only lose out on 60 neopoints if you withdraw the larger amount and don't end up having the boon
+//		   And 176,371 neopoints if you withdraw the smaller amount and do have the boon!
 // @match          *://www.neopets.com/bank.phtml
 // ==/UserScript==
 
@@ -81,24 +81,24 @@ const scriptCSS = `
 const withdrawHTML = `
 <div class="monkeyScriptContainer">
   <div>
-  	<label class="monkeyScriptWithdraw" for="monkeyScriptWithdrawButton"></label>
-		<div class="monkeyScriptButton" name="monkeyScriptWithdrawButton" 
-				 onclick="fillOrClear(withdrawTextbox, Math.max(0,this.innerText.replace(/,/g, '')))"></div>
-	</div>
-	<div class="monkeyScriptHidden">
-  	<label class="monkeyScriptWithdraw" for="monkeyScriptWithdrawButton3"></label>
-		<div class="monkeyScriptButton" name="monkeyScriptWithdrawButton3" 
-				 onclick="fillOrClear(withdrawTextbox, Math.max(0,this.innerText.replace(/,/g, '')))" 
-				 title="If you might have the boon tomorrow."></div>
-	</div>
+  <label class="monkeyScriptWithdraw" for="monkeyScriptWithdrawButton"></label>
+    <div class="monkeyScriptButton" name="monkeyScriptWithdrawButton"
+    	 onclick="fillOrClear(withdrawTextbox, Math.max(0,this.innerText.replace(/,/g, '')))"></div>
+  </div>
+  <div class="monkeyScriptHidden">
+    <label class="monkeyScriptWithdraw" for="monkeyScriptWithdrawButton3"></label>
+    <div class="monkeyScriptButton" name="monkeyScriptWithdrawButton3" 
+    	 onclick="fillOrClear(withdrawTextbox, Math.max(0,this.innerText.replace(/,/g, '')))"
+      	 title="If you might have the boon tomorrow."></div>
+  </div>
 </div>
 `
 
-const depositHTML = withdrawHTML.replaceAll("Withdraw", "Deposit")
-  										.replaceAll("withdraw", "deposit")
-  										.replaceAll("withdraw", "deposit")
-											.replace(/Math.max(0,this.innerText.replace(\/,\/g, ''))/,
-                               "Math.min(Number(onHandEl.innerText.replace(/,/g, '')), Math.max(0,this.innerText.replace(\/,\/g, '')))");
+const depositHTML = withdrawHTML
+	.replaceAll("Withdraw", "Deposit")
+	.replaceAll("withdraw", "deposit")
+	.replace(/Math.max(0,this.innerText.replace(\/,\/g, ''))/,
+		 "Math.min(Number(onHandEl.innerText.replace(/,/g, '')), Math.max(0,this.innerText.replace(\/,\/g, '')))");
 
 const scriptJS = `
 var withdrawTextbox = document.querySelector("form#frmWithdraw div.bank-input-grid input");
@@ -106,7 +106,7 @@ var depositTextbox = document.querySelector("form#frmdeposit div.bank-input-grid
 var onHandEl = document.querySelector('[id="npanchor"][class="np-text__2020"]');
 
 function fillOrClear(object, val) {
-	object.value == "" ? object.value = val : object.value = "";
+  object.value == "" ? object.value = val : object.value = "";
 }
 `
 

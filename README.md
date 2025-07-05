@@ -25,7 +25,8 @@ If you want to use a <b>previous</b> version
 <h1>Scripts</h1>
 <ul>
     <li>
-      <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Lab%20Ray%20%26%20Petpet%20Lab%20Ray%20Improvements.user.js">
+      <h3><a  target="_blank" 
+            href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Lab%20Ray%20%26%20Petpet%20Lab%20Ray%20Improvements.user.js">
         Neopets - Lab Ray & Petpet Lab Ray Improvements</a></h3>
       <table>
         <tr>
@@ -43,7 +44,8 @@ If you want to use a <b>previous</b> version
       </table>
     </li>
     <li>
-      <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Bank%20Maximize%20Interest.user.js">
+      <h3><a  target="_blank"
+            href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Bank%20Maximize%20Interest.user.js">
         Neopets - Bank Maximize Interest</a></h3>
       <table>
         <tr>
@@ -61,7 +63,8 @@ If you want to use a <b>previous</b> version
       </table>
     </li>
     <li>
-      <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20TM%20Scratchcard%20Kiosk.user.js">
+      <h3><a  target="_blank"
+            href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20TM%20Scratchcard%20Kiosk.user.js">
         Neopets - TM Scratchcard Kiosk</a></h3>
       <table>
         <tr>
@@ -79,7 +82,8 @@ If you want to use a <b>previous</b> version
       </table>
     </li>
     <li>
-      <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20FC%20Bet%20Counter.user.js">
+      <h3><a  target="_blank"
+            href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20FC%20Bet%20Counter.user.js">
         Neopets - FC Bet Counter</a></h3>
       <table>
         <tr>
@@ -102,7 +106,8 @@ If you want to use a <b>previous</b> version
       </table>
     </li>
     <li>
-      <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Lunar%20Temple%20Solver.user.js">
+      <h3><a  target="_blank"
+            href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Lunar%20Temple%20Solver.user.js">
       Neopets - Lunar Temple Solver</a></h3>
       <table>
         <tr>
@@ -128,7 +133,8 @@ If you want to use a <b>previous</b> version
       </table>
     </li>
     <li>
-      <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/JN%20iDB%20-%20DTI%20link.user.js">
+      <h3><a  target="_blank"
+            href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/JN%20iDB%20-%20DTI%20link.user.js">
         JN iDB - DTI link</a></h3>
       <table>
         <tr>

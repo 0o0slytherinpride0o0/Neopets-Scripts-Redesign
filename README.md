@@ -127,7 +127,7 @@ If you want to use a <b>previous</b> version
         <tr>
           <td><i>Reason</i>:</td>
           <td>"There's already an approved script that does this."<br>
-            <sub>Actually, there are <i>multiple</i>. Plus, the main one doesn't work with Greasmonkey.<br>
+            <sub>Actually, there are <i>multiple</i>. Plus, the main one doesn't work with Greasemonkey.<br>
               (it'll throw a <code>$ is not defined</code> error because the author is using JQuery but didn't include it)<br>
               Mine is vanilla JavaScript, so it should work with any extension.</sub>
           </td>

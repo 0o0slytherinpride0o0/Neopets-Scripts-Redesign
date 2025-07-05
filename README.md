@@ -137,7 +137,7 @@ If you want to use a <b>previous</b> version
         </tr>
         <tr>
           <td><i>Preview</i>:</td>
-          <td><a href="https://i.imgur.com/AcrPxRI.png" target="_blank"><img width="400" src="https://i.imgur.com/AcrPxRI.png"></a></td>
+          <td><a href="https://i.imgur.com/xMiCaAE.png" target="_blank"><img width="400" src="https://i.imgur.com/xMiCaAE.png"></a></td>
         </tr>
         <tr>
           <td><i>Status</i>:</td>

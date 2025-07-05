@@ -38,19 +38,66 @@ If you want to use a <b>previous</b> version
 
 <h1>Denied Approval</h1>
 <ul>
-  <li><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20FC%20Bet%20Counter.user.js">
-    Neopets - FC Bet Counter</a></li>
-  Reason: "Not useful enough"<br>
-  Although there's already an approved script that does the same thing. 🙄
-  <li><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Lunar%20Temple%20Solver.user.js">
-    Neopets - Lunar Temple Solver</a></li>
-  Reason: "There's already an approved script that does this."<br>
-  Actually, there are <i>multiple</i>.<br>
-  Plus, the main one doesn't work with Greasmonkey (it'll throw a <code>$ is not defined</code> error because the author is using JQuery but didn't include it).<br>
-  Mine is vanilla JavaScript, so it should work with Greasmonkey, Tampermonkey, Violentmonkey, etc.
-  <li><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/JN%20iDB%20-%20DTI%20link.user.js">
-    JN iDB - DTI link</a></li>
-  Reason: "Not for neopets.com"<br>
-  Although, there are scripts that are for DTI. 🤷‍♀️ 
+    <li>
+      <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20FC%20Bet%20Counter.user.js">
+        Neopets - FC Bet Counter</a></h3>
+      <table>
+        <tr>
+          <td><i>Purpose</i>:</td>
+          <td>Adds a count of FC bets in the table header</td>
+        </tr>
+        <tr>
+          <td><i>Preview</i>:</td>
+          <td><a href="https://i.imgur.com/j2OuMuz.png" target="_blank"><img width="400" src="https://i.imgur.com/j2OuMuz.png"></a></td>
+        </tr>
+        <tr>
+          <td><i>Denial Reason</i>:</td>
+          <td>"Not useful enough to warrant approval"<br>
+            <sub>Although there's already an approved script that does the same thing. 🙄</sub></td>
+        </tr>
+      </table>
+    </li>
+    <li>
+      <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Lunar%20Temple%20Solver.user.js">
+      Neopets - Lunar Temple Solver</a></h3>
+      <table>
+        <tr>
+          <td><i>Purpose</i>:</td>
+          <td>Highlights the correct answer to the Lunar Temple Daily</td>
+        </tr>
+        <tr>
+          <td><i>Preview</i>:</td>
+          <td><a href="https://i.imgur.com/pMAGINP.png" target="_blank"><img width="400" src="https://i.imgur.com/pMAGINP.png"></a></td>
+        </tr>
+        <tr>
+          <td><i>Denial Reason</i>:</td>
+          <td>"There's already an approved script that does this."<br>
+            <sub>Actually, there are <i>multiple</i>. Plus, the main one doesn't work with Greasmonkey.<br>
+              (it'll throw a <code>$ is not defined</code> error because the author is using JQuery but didn't include it).<br>
+              Mine is vanilla JavaScript, so it should work with any extension.</sub>
+          </td>
+        </tr>
+      </table>
+    </li>
+    <li>
+      <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/JN%20iDB%20-%20DTI%20link.user.js">
+        JN iDB - DTI link</a></h3>
+      <table>
+        <tr>
+          <td><i>Purpose</i>:</td>
+          <td>Adds a link to DTI for wearables in Jellyneo's Item Database</td>
+        </tr>
+        <tr>
+          <td><i>Preview</i>:</td>
+          <td><a href="https://i.imgur.com/AcrPxRI.png" target="_blank"><img width="400" src="https://i.imgur.com/AcrPxRI.png"></a></td>
+        </tr>
+        <tr>
+          <td><i>Denial Reason</i>:</td>
+          <td>"Not for neopets.com"<br>
+            <sub> Although, there are scripts that are for DTI. 🤷‍♀️</sub>
+          </td>
+        </tr>
+      </table>
+    </li>
 </ul>
 

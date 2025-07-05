@@ -24,11 +24,12 @@ if (document.URL.endsWith("kiosk.phtml")) {
   var countDiv =  document.createElement("div");
   countDiv.style = "color: darkblue; font-size: 12pt; margin: auto; padding: 3px 5px; width: fit-content;";
   countDiv.innerHTML = "Scratched for today: <b>" + count + " / 5</b>";
+
+  document.querySelector("td.content").appendChild(countDiv);
   
   var dropdown = document.querySelector("select[name='card_id']");
   if (dropdown != null) {
     dropdown.options[1].selected = true;
-    dropdown.parentElement.nextElementSibling.after(countDiv);
   }
 
 } else {

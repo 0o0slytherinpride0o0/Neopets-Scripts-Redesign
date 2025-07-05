@@ -22,22 +22,62 @@ If you want to use a <b>previous</b> version
   <li>Save the script (ctrl + s)</li>
 </ol>
 
-<h1>Approved Scripts</h1>
+<h1>Scripts</h1>
 <ul>
-  <li><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Lab%20Ray%20%26%20Petpet%20Lab%20Ray%20Improvements.user.js">
-    Neopets - Lab Ray & Petpet Lab Ray Improvements</a></li>
-  <li><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Bank%20Maximize%20Interest.user.js">
-    Neopets - Bank Maximize Interest</a></li>
-</ul>
-
-<h1>Not Submitted Yet</h1>
-<ul>
-  <li><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20TM%20Scratchcard%20Kiosk.user.js">
-    Neopets - TM Scratchcard Kiosk</a></li>
-</ul>
-
-<h1>Denied Approval</h1>
-<ul>
+    <li>
+      <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Lab%20Ray%20%26%20Petpet%20Lab%20Ray%20Improvements.user.js">
+        Neopets - Lab Ray & Petpet Lab Ray Improvements</a></h3>
+      <table>
+        <tr>
+          <td><i>Purpose</i>:</td>
+          <td>Adds Pet Names to the Lab Ray & Petpet Lab Ray Selection Pages</td>
+        </tr>
+        <tr>
+          <td><i>Preview</i>:</td>
+          <td>(to do)</td>
+        </tr>
+        <tr>
+          <td><i>Status</i>:</td>
+          <td>Approved ✅</td>
+        </tr>
+      </table>
+    </li>
+    <li>
+      <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Bank%20Maximize%20Interest.user.js">
+        Neopets - Bank Maximize Interest</a></h3>
+      <table>
+        <tr>
+          <td><i>Purpose</i>:</td>
+          <td>For Neopians who are at the bank limit, provides buttons to withdraw/deposit the exact amount needed so collecting your interest the next day will put you back at the limit</td>
+        </tr>
+        <tr>
+          <td><i>Preview</i>:</td>
+          <td>(to do)</td>
+        </tr>
+        <tr>
+          <td><i>Status</i>:</td>
+          <td>Approved ✅</td>
+        </tr>
+      </table>
+    </li>
+    <li>
+      <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20TM%20Scratchcard%20Kiosk.user.js">
+        Neopets - TM Scratchcard Kiosk</a></h3>
+      <table>
+        <tr>
+          <td><i>Purpose</i>:</td>
+          <td>Fixes the broken images, adds a back button, selects the first card in the dropdown, counts number scratched</td>
+        </tr>
+        <tr>
+          <td><i>Preview</i>:</td>
+          <td>(to do)</td>
+        </tr>
+        <tr>
+          <td><i>Status</i>:</td>
+          <td><i>Not submitted yet</i></td>
+        </tr>
+      </table>
+    </li>
     <li>
       <h3><a href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20FC%20Bet%20Counter.user.js">
         Neopets - FC Bet Counter</a></h3>
@@ -51,7 +91,11 @@ If you want to use a <b>previous</b> version
           <td><a href="https://i.imgur.com/j2OuMuz.png" target="_blank"><img width="400" src="https://i.imgur.com/j2OuMuz.png"></a></td>
         </tr>
         <tr>
-          <td><i>Denial Reason</i>:</td>
+          <td><i>Status</i>:</td>
+          <td>Denied Approval ❌</td>
+        </tr>
+        <tr>
+          <td><i>Reason</i>:</td>
           <td>"Not useful enough to warrant approval"<br>
             <sub>Although there's already an approved script that does the same thing. 🙄</sub></td>
         </tr>
@@ -70,10 +114,14 @@ If you want to use a <b>previous</b> version
           <td><a href="https://i.imgur.com/pMAGINP.png" target="_blank"><img width="400" src="https://i.imgur.com/pMAGINP.png"></a></td>
         </tr>
         <tr>
-          <td><i>Denial Reason</i>:</td>
+          <td><i>Status</i>:</td>
+          <td>Denied Approval ❌</td>
+        </tr>
+        <tr>
+          <td><i>Reason</i>:</td>
           <td>"There's already an approved script that does this."<br>
             <sub>Actually, there are <i>multiple</i>. Plus, the main one doesn't work with Greasmonkey.<br>
-              (it'll throw a <code>$ is not defined</code> error because the author is using JQuery but didn't include it).<br>
+              (it'll throw a <code>$ is not defined</code> error because the author is using JQuery but didn't include it)<br>
               Mine is vanilla JavaScript, so it should work with any extension.</sub>
           </td>
         </tr>
@@ -92,7 +140,11 @@ If you want to use a <b>previous</b> version
           <td><a href="https://i.imgur.com/AcrPxRI.png" target="_blank"><img width="400" src="https://i.imgur.com/AcrPxRI.png"></a></td>
         </tr>
         <tr>
-          <td><i>Denial Reason</i>:</td>
+          <td><i>Status</i>:</td>
+          <td>Denied Approval ❌</td>
+        </tr>
+        <tr>
+          <td><i>Reason</i>:</td>
           <td>"Not for neopets.com"<br>
             <sub> Although, there are scripts that are for DTI. 🤷‍♀️</sub>
           </td>

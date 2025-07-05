@@ -94,7 +94,7 @@ If you want to use a <b>previous</b> version
         </tr>
         <tr>
           <td><i>Preview</i>:</td>
-          <td><a href="https://i.imgur.com/j2OuMuz.png" target="_blank"><img width="400" src="https://i.imgur.com/j2OuMuz.png"></a></td>
+          <td><a href="https://i.imgur.com/37G4ASy.png" target="_blank"><img width="500" src="https://i.imgur.com/37G4ASy.png"></a></td>
         </tr>
         <tr>
           <td><i>Status</i>:</td>
@@ -118,7 +118,7 @@ If you want to use a <b>previous</b> version
         </tr>
         <tr>
           <td><i>Preview</i>:</td>
-          <td><a href="https://i.imgur.com/pMAGINP.png" target="_blank"><img width="400" src="https://i.imgur.com/pMAGINP.png"></a></td>
+          <td><a href="https://i.imgur.com/PqX9Q7Q.png" target="_blank"><img width="500" src="https://i.imgur.com/PqX9Q7Q.png"></a></td>
         </tr>
         <tr>
           <td><i>Status</i>:</td>
@@ -145,7 +145,7 @@ If you want to use a <b>previous</b> version
         </tr>
         <tr>
           <td><i>Preview</i>:</td>
-          <td><a href="https://i.imgur.com/GAvmCIb.png" target="_blank"><img width="400" src="https://i.imgur.com/GAvmCIb.png"></a></td>
+          <td><a href="https://i.imgur.com/GAvmCIb.png" target="_blank"><img width="500" src="https://i.imgur.com/GAvmCIb.png"></a></td>
         </tr>
         <tr>
           <td><i>Status</i>:</td>

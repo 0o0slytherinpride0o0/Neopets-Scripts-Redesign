@@ -1,4 +1,6 @@
-<h1>Intro</h1>
+
+
+# Intro
 <p>I made these scripts for my own use but figured some people may find them useful, so here they are!</p>
 
 <p>Note that I use <b>Greasemonkey</b> and <b>Firefox</b> on my <b>PC</b>, so it's possible my scripts won't work for you if you're using a different Monkey extension (like Tampermonkey or Violentmonkey), a different browser, or mobile.<br>
@@ -6,7 +8,7 @@ However, I use vanilla JavaScript, so they <i>should</i> work for other extensio
 
 <p>If you have any issues, feel free to message me on Discord (un: .reemote).</p>
 
-<h1>How To</h1>
+# How To
 <ol>
   <li>Install Greasemonkey, Tampermonkey, Violentmonkey, or a similar browser extension</li>
   <li>Go to the script you want to install and press the "Raw" button (top right)<br>
@@ -24,140 +26,126 @@ If you want to use a <b>previous</b> version
   <li>Save the script (ctrl + s)</li>
 </ol>
 
-<h1>Scripts</h1>
-<ul>
-    <li>
-      <h3><a  target="_blank" 
-            href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Lab%20Ray%20%26%20Petpet%20Lab%20Ray%20Improvements.user.js">
-        Neopets - Lab Ray & Petpet Lab Ray Improvements</a></h3>
-      <table>
-        <tr>
-          <td><i>Purpose</i>:</td>
-          <td>Adds Pet Names to the Lab Ray & Petpet Lab Ray Selection Pages</td>
-        </tr>
-        <tr>
-          <td><i>Preview</i>:</td>
-          <td>(to do)</td>
-        </tr>
-        <tr>
-          <td><i>Status</i>:</td>
-          <td>Approved ✅</td>
-        </tr>
-      </table>
-    </li>
-    <li>
-      <h3><a  target="_blank"
-            href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Bank%20Maximize%20Interest.user.js">
-        Neopets - Bank Maximize Interest</a></h3>
-      <table>
-        <tr>
-          <td><i>Purpose</i>:</td>
-          <td>For Neopians who are at the bank limit, provides buttons to withdraw/deposit the exact amount needed so collecting your interest the next day will put you back at the limit</td>
-        </tr>
-        <tr>
-          <td><i>Preview</i>:</td>
-          <td>(to do)</td>
-        </tr>
-        <tr>
-          <td><i>Status</i>:</td>
-          <td>Approved ✅</td>
-        </tr>
-      </table>
-    </li>
-    <li>
-      <h3><a  target="_blank"
-            href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20TM%20Scratchcard%20Kiosk.user.js">
-        Neopets - TM Scratchcard Kiosk</a></h3>
-      <table>
-        <tr>
-          <td><i>Purpose</i>:</td>
-          <td>Fixes the broken images, adds a back button, selects the first card in the dropdown, counts number scratched</td>
-        </tr>
-        <tr>
-          <td><i>Preview</i>:</td>
-          <td>(to do)</td>
-        </tr>
-        <tr>
-          <td><i>Status</i>:</td>
-          <td><i>Not submitted yet</i></td>
-        </tr>
-      </table>
-    </li>
-    <li>
-      <h3><a  target="_blank"
-            href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20FC%20Bet%20Counter.user.js">
-        Neopets - FC Bet Counter</a></h3>
-      <table>
-        <tr>
-          <td><i>Purpose</i>:</td>
-          <td>Adds a count of FC bets in the table header</td>
-        </tr>
-        <tr>
-          <td><i>Preview</i>:</td>
-          <td><a href="https://i.imgur.com/37G4ASy.png" target="_blank"><img width="500" src="https://i.imgur.com/37G4ASy.png"></a></td>
-        </tr>
-        <tr>
-          <td><i>Status</i>:</td>
-          <td>Denied Approval ❌</td>
-        </tr>
-        <tr>
-          <td><i>Reason</i>:</td>
-          <td>"Not useful enough to warrant approval"<br>
-            <sub>Although there's already an approved script that does the same thing. 🙄</sub></td>
-        </tr>
-      </table>
-    </li>
-    <li>
-      <h3><a  target="_blank"
-            href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/Neopets%20-%20Lunar%20Temple%20Solver.user.js">
-      Neopets - Lunar Temple Solver</a></h3>
-      <table>
-        <tr>
-          <td><i>Purpose</i>:</td>
-          <td>Highlights the correct answer to the Lunar Temple Daily</td>
-        </tr>
-        <tr>
-          <td><i>Preview</i>:</td>
-          <td><a href="https://i.imgur.com/PqX9Q7Q.png" target="_blank"><img width="500" src="https://i.imgur.com/PqX9Q7Q.png"></a></td>
-        </tr>
-        <tr>
-          <td><i>Status</i>:</td>
-          <td>Denied Approval ❌</td>
-        </tr>
-        <tr>
-          <td><i>Reason</i>:</td>
-          <td>"There's already an approved script that does this."<br>
-            <sub>Actually, there are <i>multiple</i>. Plus, the main one doesn't work with Greasemonkey.<br>
-              (it'll throw a <code>$ is not defined</code> error because the author is using JQuery but didn't include it)<br>
-              Mine is vanilla JavaScript, so it should work with any extension.</sub>
-          </td>
-        </tr>
-      </table>
-    </li>
-    <li>
-      <h3><a  target="_blank"
-            href="https://github.com/0o0slytherinpride0o0/Neopets-Scripts-Redesign/blob/main/JN%20iDB%20-%20DTI%20link.user.js">
-        JN iDB - DTI link</a></h3>
-      <table>
-        <tr>
-          <td><i>Purpose</i>:</td>
-          <td>Adds a link to DTI for wearables in Jellyneo's Item Database</td>
-        </tr>
-        <tr>
-          <td><i>Preview</i>:</td>
-          <td><a href="https://i.imgur.com/GAvmCIb.png" target="_blank"><img width="500" src="https://i.imgur.com/GAvmCIb.png"></a></td>
-        </tr>
-        <tr>
-          <td><i>Status</i>:</td>
-          <td>Denied Approval ❌</td>
-        </tr>
-        <tr>
-          <td><i>Reason</i>:</td>
-          <td>"Not for neopets.com"<br>
-            <sub> Although, there are scripts that are for DTI. 🤷‍♀️</sub>
-          </td>
-        </tr>
-      </table>
-    </li>
-</ul>
+# Scripts
+
+* ### [Neopets - Lab Ray & Petpet Lab Ray Improvements](Neopets%20-%20Lab%20Ray%20%26%20Petpet%20Lab%20Ray%20Improvements.user.js)
+
+<table>
+  <tr>
+    <td><i>Purpose</i>:</td>
+    <td>Adds Pet Names to the Lab Ray & Petpet Lab Ray Selection Pages</td>
+  </tr>
+  <tr>
+    <td><i>Preview</i>:</td>
+    <td>(to do)</td>
+  </tr>
+  <tr>
+    <td><i>Status</i>:</td>
+    <td>Approved ✅</td>
+  </tr>
+</table>
+
+* ### [Neopets - Bank Maximize Interest](Neopets%20-%20Bank%20Maximize%20Interest.user.js)
+
+<table>
+  <tr>
+    <td><i>Purpose</i>:</td>
+    <td>For Neopians who are at the bank limit, provides buttons to withdraw/deposit the exact amount needed so collecting your interest the next day will put you back at the limit</td>
+  </tr>
+  <tr>
+    <td><i>Preview</i>:</td>
+    <td>(to do)</td>
+  </tr>
+  <tr>
+    <td><i>Status</i>:</td>
+    <td>Approved ✅</td>
+  </tr>
+</table>
+
+* ### [Neopets - TM Scratchcard Kiosk](Neopets%20-%20TM%20Scratchcard%20Kiosk.user.js)
+
+<table>
+  <tr>
+    <td><i>Purpose</i>:</td>
+    <td>Fixes the broken images, adds a back button, selects the first card in the dropdown, counts number scratched</td>
+  </tr>
+  <tr>
+    <td><i>Preview</i>:</td>
+    <td>(to do)</td>
+  </tr>
+  <tr>
+    <td><i>Status</i>:</td>
+    <td><i>Not submitted yet</i></td>
+  </tr>
+</table>
+
+* ### [Neopets - FC Bet Counter](Neopets%20-%20FC%20Bet%20Counter.user.js)
+
+<table>
+  <tr>
+    <td><i>Purpose</i>:</td>
+    <td>Adds a count of FC bets in the table header</td>
+  </tr>
+  <tr>
+    <td><i>Preview</i>:</td>
+    <td><a href="https://i.imgur.com/37G4ASy.png" target="_blank"><img width="500" src="https://i.imgur.com/37G4ASy.png"></a></td>
+  </tr>
+  <tr>
+    <td><i>Status</i>:</td>
+    <td>Denied Approval ❌</td>
+  </tr>
+  <tr>
+    <td><i>Reason</i>:</td>
+    <td>"Not useful enough to warrant approval"<br>
+      <sub>Not that I knew this before submitting mine, but there's already an approved script that does the same thing... </sub></td>
+  </tr>
+</table>
+
+* ### [Neopets - Lunar Temple Solver](Neopets%20-%20Lunar%20Temple%20Solver.user.js)
+
+<table>
+  <tr>
+    <td><i>Purpose</i>:</td>
+    <td>Highlights the correct answer to the Lunar Temple Daily</td>
+  </tr>
+  <tr>
+    <td><i>Preview</i>:</td>
+    <td><a href="https://i.imgur.com/PqX9Q7Q.png" target="_blank"><img width="500" src="https://i.imgur.com/PqX9Q7Q.png"></a></td>
+  </tr>
+  <tr>
+    <td><i>Status</i>:</td>
+    <td>Denied Approval ❌</td>
+  </tr>
+  <tr>
+    <td><i>Reason</i>:</td>
+    <td>"There's already an approved script that does this."<br>
+      <sub>Actually, there are <i>multiple</i>. Plus, the main one doesn't work with Greasemonkey.<br>
+        (it'll throw a <code>$ is not defined</code> error because the author is using JQuery but didn't include it)<br>
+        Mine is vanilla JavaScript, so it should work with any extension.</sub>
+    </td>
+  </tr>
+</table>
+
+* ### [Jellyneo - Add DTI link to Wearables](JN%20iDB%20-%20DTI%20link.user.js)
+
+<table>
+  <tr>
+    <td><i>Purpose</i>:</td>
+    <td>Adds a link to DTI for wearables in Jellyneo's Item Database</td>
+  </tr>
+  <tr>
+    <td><i>Preview</i>:</td>
+    <td><a href="https://i.imgur.com/GAvmCIb.png" target="_blank"><img width="500" src="https://i.imgur.com/GAvmCIb.png"></a></td>
+  </tr>
+  <tr>
+    <td><i>Status</i>:</td>
+    <td>Denied Approval ❌</td>
+  </tr>
+  <tr>
+    <td><i>Reason</i>:</td>
+    <td>"Not for neopets.com"<br>
+      <sub> Although, there are scripts that are for DTI. 🤷‍♀️</sub>
+    </td>
+  </tr>
+</table>
 

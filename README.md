@@ -8,7 +8,7 @@ However, I use vanilla JavaScript, so they <i>should</i> work for other extensio
 
 # How To
 <ol>
-  <li>Install Greasemonkey, Tampermonkey, Violentmonkey, or a similar browser extension</li>
+  <li>Install [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/), Tampermonkey, Violentmonkey, or a similar browser extension</li>
   <li>Go to the script you want to install and press the "Raw" button (top right)<br>
   An installation dialogue should appear</li>
   <li>Click "Install"</li>

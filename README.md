@@ -1,5 +1,3 @@
-
-
 # Intro
 <p>I made these scripts for my own use but figured some people may find them useful, so here they are!</p>
 
@@ -17,7 +15,8 @@ However, I use vanilla JavaScript, so they <i>should</i> work for other extensio
 </ol>
 
 If you <b>don't</b> want the scripts to <b>auto-update</b> when I make changes or<br>
-If you want to use a <b>previous</b> version
+If you want to use a <b>previous</b> version or<br>
+If you want to <b>edit the code</b>
 <ol>
   <li>Install Greasemonkey, Tampermonkey, Violentmonkey, or a similar browser extension</li>
   <li>Copy the code (press the "Copy" button: ⮺ or ctrl + a then ctrl + c)</li>
@@ -27,6 +26,8 @@ If you want to use a <b>previous</b> version
 </ol>
 
 # Scripts
+
+## Neopets
 
 * ### [Neopets - Lab Ray & Petpet Lab Ray Improvements](Neopets%20-%20Lab%20Ray%20%26%20Petpet%20Lab%20Ray%20Improvements.user.js)
 
@@ -126,7 +127,9 @@ If you want to use a <b>previous</b> version
   </tr>
 </table>
 
-* ### [Jellyneo - Add DTI link to Wearables](JN%20iDB%20-%20DTI%20link.user.js)
+## Jellyneo
+
+* ### [Jellyneo - Add DTI link to Wearables](Jellyneo%20-%20DTI%20link%20for%20Wearables.user.js)
 
 <table>
   <tr>
@@ -149,3 +152,21 @@ If you want to use a <b>previous</b> version
   </tr>
 </table>
 
+## DTI
+
+* ### [DTI - Item Tracking Improvements.user.js](DTI%20-%20Item%20Tracking%20Improvements.user.js)
+
+<table>
+  <tr>
+    <td><i>Purpose</i>:</td>
+    <td>Adds a background colour to the inputs for lists the item is on and adds a symbol (✅ or ❌) in the header, so you can quickly tell if an item is already on one of your lists</td>
+  </tr>
+  <tr>
+    <td><i>Preview</i>:</td>
+    <td><a href="https://i.imgur.com/GAvmCIb.png" target="_blank"><img width="500" src="https://i.imgur.com/Rzin1jq.png"></a></td>
+  </tr>
+  <tr>
+    <td><i>Status</i>:</td>
+    <td><i>Not submitted yet</i> - Also not sure if I'll bother, since they said no to the Jellyneo one above.</td>
+  </tr>
+</table>

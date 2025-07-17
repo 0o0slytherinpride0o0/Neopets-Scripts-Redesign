@@ -4,7 +4,7 @@
 // @version        1.0
 // @description    In the "Track this in Your Items" box on an item's page: 
 //                 Helps you track if an item is already on an own/want list by:
-//                 	 *** Adding a ??? in the header if the item is already on a list (or an ??? if not)
+//                 	 *** Adding a ✅ in the header if the item is already on a list (or an ❌ if not)
 //                 Helps you track *which* list an item is on by:
 //                 	 *** Adding a light green background to the input boxes for items you own (i.e., lists with quantity > 0)
 //                 	 *** Adding a light purple background to the input boxes for items you want (i.e., lists with quantity > 0)

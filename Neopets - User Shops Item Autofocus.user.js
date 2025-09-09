@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Neopets - User Shops Item Autofocus
 // @version        1.0
-// @description	   Autofocuses the item you want to buy, scrolling it into view & making it so you just have to hit Enter (twice) to purchase!
+// @description	   Autofocuses the item you want to buy in a user's shop, scrolling it into view & making it so you just have to hit Enter (twice) to purchase!
 //                 (Set focusVisible to true if you want the link to be highlighted)
 // @author         0o0slytherinpride0o0
 // @match          *://*.neopets.com/browseshop.phtml?owner=*

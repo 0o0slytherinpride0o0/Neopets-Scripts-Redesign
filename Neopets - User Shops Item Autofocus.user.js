@@ -10,7 +10,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   var link = document.querySelector('div:has(+ hr[size="1"][width="75%"]) a[onclick]');
   if (link) {
-    link.setAttribute("taxindex","-1");
+    link.setAttribute("tabindex","-1");
     link.focus({ focusVisible: false }); // set to true if you want the link highlighted
   }
 }, { once: true });

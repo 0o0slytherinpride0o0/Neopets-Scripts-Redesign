@@ -1,8 +1,9 @@
 // ==UserScript==
-// @name           Neopets - User Shops Item Autofocus
+// @name           Neopets - User Shop Scroll Item into View
 // @version        1.1
-// @description	   Autofocuses the item you want to buy in a user's shop, scrolling it into view & making it so you just have to hit Enter (twice) to purchase!
-//                 (Set focusVisible to true if you want the link to be highlighted)
+// @description	   Scrolls the item you want to purchase into view (after clicking on a SSW/SW link)
+//                 This only really matters for shops with a lot of banners/images/text/etc. Otherwise there will be no (visible) effect.
+//                 Note that using a script to remove user code from shops has the same advantage of ensuring the item you wish to purchase is in view.
 // @author         0o0slytherinpride0o0
 // @match          *://www.neopets.com/browseshop.phtml?owner=*
 // ==/UserScript==
@@ -12,5 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
   if (link) {
     link.setAttribute("tabindex","-1");
     link.focus({ focusVisible: false }); // set to true if you want the link highlighted
+    link.blur(); // removes the focus because I was told this was too much of an advantage
   }
 }, { once: true });

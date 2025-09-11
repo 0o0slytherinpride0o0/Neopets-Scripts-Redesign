@@ -23,5 +23,7 @@ if (angleKreludor != null && answerTable != null) {
   var imageNum = imageNumArr[solutionNum];
 
   var solutionImg = answerTable.querySelector('img[src="https://images.neopets.com/shenkuu/lunar/phases/' + imageNum + '.gif"]');
-  solutionImg.setAttribute("style", "border: 3px solid red");
+  solutionImg.style.borderRadius = "60%";
+  solutionImg.parentElement.style.backgroundColor = "#4A9BCF";
 }
+

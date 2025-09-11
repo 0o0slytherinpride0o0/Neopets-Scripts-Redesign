@@ -1,12 +1,14 @@
 // ==UserScript==
-// @name           Neopets - User Shop Scroll Item into View
-// @version        1.2
-// @description	   Scrolls the item you want to purchase into view (after clicking on a SSW/SW link)
-//                 This only really matters for shops with a lot of banners/images/text/etc. Otherwise there will be no (visible) effect.
-//                 Note that using a script to remove user code from shops has the same advantage of ensuring the item you wish to purchase is in view.
+// @name           Neopets - User Shops - Scroll Item into View
+// @version        1.3
+// @description	   Scrolls the item you want to purchase into view (after clicking on a SSW/SW link).
 // @author         0o0slytherinpride0o0
 // @match          *://www.neopets.com/browseshop.phtml?owner=*
 // ==/UserScript==
+
+// This only really matters for shops with a lot of banners/images/text/etc. Otherwise there will be no (visible) effect.
+// Note that using a script to remove user code from shops has the same advantage of ensuring the item you wish to purchase is in view.
+// This just scrolls past them instead of removing them.
 
 (function() {
     'use strict';

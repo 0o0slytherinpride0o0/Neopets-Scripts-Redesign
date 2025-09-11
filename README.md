@@ -14,7 +14,7 @@ However, I use vanilla JavaScript, so they <i>should</i> work for other extensio
     <a href="https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/">Violentmonkey</a>, 
     or a similar browser extension</li>
   <li>Go to the script you want to install and press the <code>Raw</code> button (top right)<br>
-  An installation dialogue should appear</li>
+  An installation dialogue pop-up should appear (or a new tab should open)</li>
   <li>Click <code>Install</code></li>
 </ol>
 
@@ -35,7 +35,8 @@ Then:
 </ol>
 
 Please, please, please <b>edit my code to your heart's content</b>!<br>
-Share it, call it your own, request I make changes, whatever!
+Share it, call it your own*, request I make changes, whatever!<br>
+<sub>*I'm mostly seriously about this, although credit is always appreciated.</sub>
 
 # Scripts
 

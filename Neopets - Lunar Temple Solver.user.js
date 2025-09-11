@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author         0o0slytherinpride0o0
 // @name           Neopets - Lunar Temple Solver
-// @version        1.0
+// @version        1.1
 // @description    Highlights the correct answer for the Lunar Temple Daily
 // @match          *://www.neopets.com/shenkuu/lunar/?show=puzzle*
 // ==/UserScript==
@@ -26,4 +26,5 @@ if (angleKreludor != null && answerTable != null) {
   solutionImg.style.borderRadius = "60%";
   solutionImg.parentElement.style.backgroundColor = "#4A9BCF";
 }
+
 

@@ -10,7 +10,7 @@
 
 (function() {
     'use strict';
-    window.onload = function() { 
+    function init() {
         var hr = document.querySelector('hr[size="1"][width="75%"]'); 
         if (hr) {
             var link = hr.previousElementSibling.querySelector("a[onclick]");
@@ -20,5 +20,11 @@
                 link.blur(); // unfocuses the item after it's scrolled into view
             }
         }
+    }
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
     }
 })();

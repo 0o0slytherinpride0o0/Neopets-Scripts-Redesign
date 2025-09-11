@@ -22,9 +22,9 @@
         }
     }
     
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
+    if (document.readyState === 'complete') {
         init();
+    } else {
+        window.addEventListener('load', init);
     }
 })();

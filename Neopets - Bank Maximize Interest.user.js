@@ -1,7 +1,7 @@
 // ==UserScript==
 // @author         0o0slytherinpride0o0
 // @name           Neopets - Bank Maximize Interest
-// @version        1.0
+// @version        1.01
 // @description    Calculates how much you need to withdraw or deposit to maximize your daily interest for the next day
 //		   i.e., so collecting your interest puts you back at the neopoint limit exactly
 //		   Right now, it assumes if it's Sunday:

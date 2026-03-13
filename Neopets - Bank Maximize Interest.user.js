@@ -30,7 +30,7 @@ var sunday = new Date().toLocaleString('en', {
 // since you won't have the boon *tomorrow*, you want to use your previous interest rate
 var case1 = (sunday && intRateArr.length == 2);
 
-// Case 2: It's Sunday & you you *might* have the boon tomorrow
+// Case 2: It's Sunday & you *might* have the boon tomorrow
 // it's up to you to make sure you withdraw the correct amount here
 // since you have to know
 //    1. If it's a battle week
@@ -97,12 +97,12 @@ const withdrawHTML = `
 const depositHTML = withdrawHTML
 	.replaceAll("Withdraw", "Deposit")
 	.replaceAll("withdraw", "deposit")
-	.replace(/Math.max(0,this.innerText.replace(\/,\/g, ''))/,
+	.replace(/Math\.max\(0,this\.innerText.replace\(\/,\/g, ''\)\)/,
 		 "Math.min(Number(onHandEl.innerText.replace(/,/g, '')), Math.max(0,this.innerText.replace(\/,\/g, '')))");
 
 const scriptJS = `
 var withdrawTextbox = document.querySelector("form#frmWithdraw div.bank-input-grid input");
-var depositTextbox = document.querySelector("form#frmdeposit div.bank-input-grid input");
+var depositTextbox = document.querySelector("form#frmDeposit div.bank-input-grid input");
 var onHandEl = document.querySelector('[id="npanchor"][class="np-text__2020"]');
 
 function fillOrClear(object, val) {

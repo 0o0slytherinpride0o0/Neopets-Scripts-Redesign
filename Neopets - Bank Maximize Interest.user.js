@@ -15,8 +15,8 @@
 
 var balanceLimit = 2**31 - 1;
 
-var withdrawHeader = document.querySelector('div.bank-withdraw-header.bank-backing-header.bank-backing-t4');
-var depositHeader = document.querySelector('div.bank-deposit-header.bank-backing-header.bank-backing-t4');
+var withdrawHeader = document.querySelector('div.bank-withdraw-header.bank-backing-header');
+var depositHeader = document.querySelector('div.bank-deposit-header.bank-backing-header');
 
 var balanceEl = document.querySelector("#txtCurrentBalance1");
 var intRateArr = document.querySelector("#txtAnnualInterestRate").innerText.match(/([\.0-9]+)/g).map(x => Number(x));
